@@ -2163,7 +2163,7 @@ body {
 
 .text-block-7._2 {
   opacity: 1;
-  color: #fbbe35;
+  color: #00FFFF;
   font-weight: 700;
   text-decoration: line-through;
 }
@@ -2335,7 +2335,7 @@ body {
 
 .text-block-8 {
   font-family: Oswald, sans-serif;
-  color: #fbbe35;
+  color: #00FFFF;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 4px;
@@ -2344,7 +2344,7 @@ body {
 
 .text-block-8.gold {
   margin-top: 0px;
-  color: #fbbe35;
+  color: #00FFFF;
   font-weight: 700;
 }
 
@@ -2643,10 +2643,10 @@ body {
     left top,
     left bottom,
     from(#111413),
-    color-stop(49%, #fbbe35),
-    to(#fbbe35)
+    color-stop(49%, #00FFFF),
+    to(#00FFFF)
   );
-  background-image: linear-gradient(180deg, #111413, #fbbe35 49%, #fbbe35);
+  background-image: linear-gradient(180deg, #111413, #00FFFF 49%, #00FFFF);
 }
 
 .timeline_circle {
@@ -2805,16 +2805,16 @@ body {
   border-width: 2px;
   border-color: #fff;
   border-radius: 8px;
-  background-color: #fbbe35;
+  background-color: #00FFFF;
   background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
-    from(#fbbe35),
-    to(#fbbe35)
+    from(#00FFFF),
+    to(#00FFFF)
   );
-  background-image: linear-gradient(180deg, #fbbe35, #fbbe35);
-  box-shadow: 1px 1px 20px 0 #fbbe35;
+  background-image: linear-gradient(180deg, #00FFFF, #00FFFF);
+  box-shadow: 1px 1px 20px 0 #00FFFF;
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
   font-family: Oswald, sans-serif;
@@ -3981,12 +3981,12 @@ body {
   opacity: 1;
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
-  color: #fbbe35;
+  color: rgb(0,255,255);
   text-shadow: none;
 }
 
 .link-13:hover {
-  text-shadow: 0 0 11px #fbbe35;
+  text-shadow: 0 0 11px rgb(0,255,255);
 }
 
 .div-block-14 {
@@ -4004,9 +4004,28 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 8px;
-  background-color: #fbbe35;
+  background-color: #00FFFF;
+  box-shadow: 1px 1px 20px 0 #00FFFF;
+  
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .text-block-33 {
   margin-right: 10px;
